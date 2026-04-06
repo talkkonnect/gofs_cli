@@ -1,0 +1,34 @@
+{
+  "default": {
+    "loglevel": 7,
+    "log-uuid": true,
+    "keys": {
+      "f1": "help",
+      "f2": "status"
+
+
+    }
+  },
+  "profiles": [
+    {
+      "name": "default",
+      "host": "127.0.0.1",
+      "port": "8021",
+      "password": "cluecon",
+      "debug": 7,
+      "prompt": "headhoffice-pbx->",
+      "prompt-color": "cyan",
+      "input-text-color": "red"
+    },
+    {
+      "name": "server2",
+      "host": "172.16.14.6",
+      "port": "8021",
+      "password": "cluecon",
+      "debug": 7,
+      "prompt": "siteoffice-pbx->",
+      "prompt-color": "cyan",
+      "input-text-color": "white"
+    }
+  ]
+}
